@@ -19,20 +19,26 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 999;
     h1:hover {
         transform: scale(1.2);
+        cursor: pointer;
     }
     h2:hover {
         transform: scale(1.2);
+        cursor: pointer;
     }
     h3:hover {
         transform: scale(1.2);
+        cursor: pointer;
     }
     h4:hover {
         transform: scale(1.2);
+        cursor: pointer;
     }
     h5:hover {
         transform: scale(1.2);
+        cursor: pointer;
     }
 }
 
@@ -42,6 +48,7 @@ article {
     justify-content: center;
     img {
         margin: 1%;
+        cursor: pointer;
     }
     div {
         padding: 1%;
@@ -58,7 +65,13 @@ main {
     article {
         margin: $margin-all;
         img {
-            border-radius: 25px;
+            border-radius: 65px;
+            box-shadow: 7px 7px 7px 7px black;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                cursor: pointer;
+            }
         }
     }
 }
@@ -72,5 +85,5 @@ footer {
     position: sticky;
     bottom: 0;
     background-color: $color-footer;
-    color: white;
+    color: $color-textFooter;
 }
