@@ -71,6 +71,9 @@ article div {
   padding: 1%;
   font-size: 0.8em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -83,6 +86,7 @@ main article {
   margin: 0 0 3% 0;
 }
 main article img {
+  width: 15%;
   border-radius: 65px;
   box-shadow: 7px 7px 7px 7px black;
   cursor: pointer;
@@ -100,6 +104,6 @@ footer {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  background-color: black;
+  background-color: blue;
   color: white;
 }/*# sourceMappingURL=app.css.map */
